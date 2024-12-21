@@ -1,0 +1,51 @@
+#app {
+    display: grid;
+    grid-template-columns: 51.25% 48.75%;
+
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+main {
+    overflow: auto;
+    padding: 4rem;
+}
+
+main .main-container {
+    max-width: 33rem;
+    margin-left: auto;
+}
+
+main .back {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+main h2 {
+    margin-block: 1.5rem 0.5rem;
+}
+
+aside {
+    padding: 4rem;
+    background-color: var(--surface-secondary);
+}
+
+aside .aside-container {
+    max-width: 31rem;
+    margin-right: auto;
+}
+
+aside h1 {
+    margin-block: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+aside h1 span {
+    color: var(--text-highlight);
+}
+
+aside p {
+    margin-bottom: 2rem;
+}

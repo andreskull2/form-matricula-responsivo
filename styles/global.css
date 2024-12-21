@@ -1,3 +1,11 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --brand-light: #f67841;
     --brand-md: #f3541c;
@@ -26,15 +34,17 @@
 }
 
 .heading1 {
-    font-size: 2rem;
-    line-height: 120%;
-    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 125%;
+    font-weight: 600;
+    color: var(--text-primary);
 }
 
 .heading2 {
     font-size: 1.5rem;
-    line-height: 120%;
-    font-weight: 700;
+    line-height: 125%;
+    font-weight: 600;
+    color: var(--text-primary);
 }
 
 .heading3 {
@@ -43,8 +53,24 @@
     font-weight: 700;
 }
 
-.heading4 {
+.text-md {
     font-size: 1rem;
     line-height: 120%;
     font-weight: 700;
 }
+
+body {
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-secondary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+}
+
