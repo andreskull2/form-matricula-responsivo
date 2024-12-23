@@ -25,7 +25,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 This project involved designing and implementing a responsive layout for a form registration, ensuring compatibility with mobile and desktop devices. The focus was on maintaining a visually appealing and functional user interface that adapts seamlessly to different screen sizes, prioritizing usability and accessibility.
-- [Access the finished project](https://andreskull2.github.io/portal-noticias-responsivo/)
+- [Access the finished project](https://andreskull2.github.io/form-matricula-responsivo/)
 - [Watch the classes](https://www.rocketseat.com.br/formacao/fullstack)
 
 ## 🔖 Layout
